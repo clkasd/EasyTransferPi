@@ -1,0 +1,7 @@
+#ifndef SERIALEXAMPLEHEADER_H
+#define SERIALEXAMPLEHEADER_H
+
+#include <QtCore/QtGlobal>
+#incl
+
+#endif // SERIALEXAMPLEHEADER_H
