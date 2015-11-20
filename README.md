@@ -48,3 +48,5 @@ So main.cpp is just for starting the task.
 ActionHandler *easypi=new ActionHandler(9600);
 easypi->startConnection();//starts the connection.
 ```
+
+Checkout blog post:![](http://developwear.com/blog/2015/11/20/easytransferpi-easytransfer-raspberrypi/)
