@@ -5,6 +5,7 @@ ActionHandler::ActionHandler(int baudRate)
 {
     transferManager=new EasyTransferPi();
     connect(transferManager,SIGNAL(eventReadyToSend()),this,SLOT(onReadyToSend()));
+    connect(transferManager,SIGNAL(eventDataArrived()),this,SLOT(onDataArrived()));
     baud=baudRate;
 }
 
